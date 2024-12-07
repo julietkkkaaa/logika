@@ -1,0 +1,36 @@
+body{
+    background-color: #79368f;
+}
+.logo{
+    width: 10em;
+    height: 10em;
+}
+.header{
+    width: 25em;
+    height: 7em;
+}
+header div{
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0% 5% 0% 5%;
+}
+main div{
+    display: block;
+    flex-direction: column;
+    margin: 1% 1% 1% 32%;
+    justify-items: center;
+    opacity: 0.64;
+}
+.fr, .fr1, .fr2, .fr3, .fr4{
+    width:50%;
+    height:20%;
+}
+.python{
+    margin-top: 3%;
+}
+
+main div:hover{
+    transition: 0.5s;
+    opacity: 1;
+}
